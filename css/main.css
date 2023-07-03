@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.brand-list li {
+    display: inline;
+    margin: 16px;
+   
+}
+
+#linha-superior {
+    padding: 16px;
+    background-color: silver;
+}
+
+header {
+    background-color: rgb(6, 29, 92);
+    color: silver;
+    padding: 16px 0;
+    font-weight: normal;
+}
+
+
+
+header,
+header h2,
+.container h2{
+    
+    font-family: 'Orbitron', sans-serif;
+    font-weight: normal;
+}
+
+
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: cyan;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.paulo-about {
+    margin-right: 32px;
+    border-radius: 10px;
+}
+
+#about {
+    background-color: black;
+    color: cyan;
+    padding: 24px;
+}
+
+#about .container {
+    display: flex;
+    
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.brand-list img {
+    height: 30px;
+    margin-top: 8px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.youtube {
+    background-color: rgb(235, 217, 193);
+    padding-bottom: 50px;
+}
+
+.youtube h2 {
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.youtube p {
+    margin-bottom: 24px;
+} 
+
+
+
+.lista-video li {
+    display: inline;
+    margin-right: 16px;
+}
+
+
+.contato {
+    padding: 24px;
+}
+
+
+
