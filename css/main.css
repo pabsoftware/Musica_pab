@@ -34,7 +34,8 @@ header nav li {
 
 header,
 header h2,
-.container h2{
+.container h2,
+.container h3{
     
     font-family: 'Orbitron', sans-serif;
     font-weight: normal;
